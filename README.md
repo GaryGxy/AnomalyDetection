@@ -3,7 +3,21 @@ Algorithm: The underlying algorithm of this anomaly detection is using a sliding
 
 Confusion Matrix:
 
-- cpc_2 dataset:            (Actual Anomaly)               - cpc_3 dataset:            (Actual Anomaly)                 - cpc_4 dataset:            (Actual Anomaly) 
+- cpc_2 dataset:                           
+   |(Actual Anomaly)|0|1| 
+   |----|----|----|----|----|----|
+   |(Predicted Anomaly)|0|1611 |0|                    
+   |(Predicted Anomaly)|1|12| 1|                      
+
+- cpm_2 dataset:            (Actual Anomaly)                
+                             0    |    1                      
+   (Predicted Anomaly) 0     1621      1                      
+   (Predicted Anomaly) 1     1         1                      
+
+
+
+
+- cpc_2 dataset:            (Actual Anomaly)                - cpc_3 dataset:            (Actual Anomaly)                 - cpc_4 dataset:            (Actual Anomaly) 
                              0    |    1                                                  0   |   1                                                    0   |   1
    (Predicted Anomaly) 0    1611       0                      (Predicted Anomaly) 0      1480     1                        (Predicted Anomaly) 0      1536     0
    (Predicted Anomaly) 1    12         1                      (Predicted Anomaly) 1      55       2                        (Predicted Anomaly) 1      104      3
