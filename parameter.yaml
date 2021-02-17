@@ -1,0 +1,9 @@
+# Parameters.yaml File
+
+cpc parameters:
+  percentage: 2
+  threshold: 0.5
+
+cpm parameters:
+  percentage: 2
+  threshold: 0.95
